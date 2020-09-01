@@ -12,8 +12,17 @@ Click on badge above to be redirect to Nvidia website and fill the form with you
   <img src="/img/nvidia_driver_screenshot.png" alt="Caption text">
   <figcaption>If you don't know what is your GPU model, type this command in terminal: </figcaption>
 </figure>
+
 ```shell
-$ ubuntu-drivers devices
+foo@bar:~$ ubuntu-drivers devices
+```
+
+```sh
+foo@bar:~$ ubuntu-drivers devices
+```
+
+```console
+foo@bar:~$ ubuntu-drivers devices
 ```
 
 **Step 2: Add permissions to execute the file.**
