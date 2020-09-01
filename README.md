@@ -2,7 +2,7 @@
 
 A simple and fast tutorial to install Nvidia drivers on Ubuntu 18.04 LTS version.
 
-## **Step 1: Download the Nvidia driver.**
+# **Step 1: Download the Nvidia driver**
 
 Click on badge above to be redirect to Nvidia website and fill the form with your GPU card informations as the following image:
 
@@ -21,7 +21,7 @@ foo@bar:~$ ubuntu-drivers devices
   <img src="/img/ubuntu-drivers-devices.png" alt="Caption text">
 </figure>
 
-**Step 2: Run the following commands:**
+# **Step 2: Run the following commands**
 
 ```console
 foo@bar:~$ sudo apt-get install gcc make
@@ -31,14 +31,13 @@ foo@bar:~$ sudo update-initramfs -u
 foo@bar:~$ sudo reboot
 ```
 
-**Step 3: Enter the following key combination when you're logging in:**
+# **Step 3: Enter the following key combination when you're logging in**
 
 ```console
 Ctrl + Alt + F2
 ```
 
-**Step 4: Run the following commands:**
-
+# **Step 4: Run the following commands:**
 
 ```console
 foo@bar:~$ sudo telinit 3
