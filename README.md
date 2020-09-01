@@ -13,20 +13,12 @@ Click on badge above to be redirect to Nvidia website and fill the form with you
   <figcaption>If you don't know what is your GPU model, type this command in terminal: </figcaption>
 </figure>
 
-```shell
-foo@bar:~$ ubuntu-drivers devices
-```
-
-```sh
-foo@bar:~$ ubuntu-drivers devices
-```
-
 ```console
 foo@bar:~$ ubuntu-drivers devices
 ```
 
 **Step 2: Add permissions to execute the file.**
 
-```sh
-chmod +x NVIDIA-Linux-x86_64-450.66.run
+```console
+foo@bar:~$ chmod +x NVIDIA-Linux-x86_64-450.66.run
 ```
