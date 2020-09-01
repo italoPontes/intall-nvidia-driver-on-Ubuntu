@@ -8,9 +8,7 @@ Click on badge above to be redirect to Nvidia website and fill the form with you
 
 [<img src="https://images.bjorn3d.com/Material/revimages/video/Nvidia_GTX680/NV_GF_GTX_preferred_badge_FOR_WEB_ONLY.png" width="150" />](https://www.nvidia.com/Download/index.aspx)
 
-[![My gpu description](/img/nvidia_driver_screenshot.png)](https://www.nvidia.com/Download/index.aspx)
-
 <figure>
   <img src="/img/nvidia_driver_screenshot.png" alt="Caption text">
-  <figcaption>Caption text</figcaption>
+  <figcaption>If you don't know what is your GPU model, type this command in terminal: $ ubuntu-drivers devices</figcaption>
 </figure>
