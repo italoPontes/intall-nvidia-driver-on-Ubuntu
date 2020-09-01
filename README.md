@@ -21,7 +21,7 @@ foo@bar:~$ ubuntu-drivers devices
   <img src="/img/ubuntu-drivers-devices.png" alt="Caption text">
 </figure>
 
-**Step 2: Run the following commands:
+**Step 2: Run the following commands**
 
 ```console
 foo@bar:~$ sudo apt-get install gcc make
@@ -31,9 +31,30 @@ foo@bar:~$ sudo update-initramfs -u
 foo@bar:~$ sudo reboot
 ```
 
-
-**Add permissions to execute the file.**
+**Step 3: Enter the following key combination when you're logging in**
 
 ```console
-foo@bar:~$ chmod +x NVIDIA-Linux-x86_64-450.66.run
+Ctrl + Alt + F2
 ```
+
+**Step 4: Run the following commands**
+
+
+```console
+foo@bar:~$ sudo telinit 3
+foo@bar:~$ cd Downloads/
+foo@bar:~$ chmod +x NVIDIA-Linux-x86_64-450.66.run
+foo@bar:~$ NVIDIA-Linux-x86_64-450.66.run
+foo@bar:~$ sudo reboot
+```
+
+If everything happens ok, you will log normally and will get the following output:
+
+```console
+foo@bar:~$ nvidia-smi
+```
+
+<figure>
+  <img src="/img/nvidia-smi.png" alt="Caption text">
+</figure>
+
