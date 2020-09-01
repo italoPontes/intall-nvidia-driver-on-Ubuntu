@@ -21,7 +21,18 @@ foo@bar:~$ ubuntu-drivers devices
   <img src="/img/ubuntu-drivers-devices.png" alt="Caption text">
 </figure>
 
-**Step 2: Add permissions to execute the file.**
+**Step 2: Run the following commands:
+
+```console
+foo@bar:~$ sudo apt-get install gcc make
+foo@bar:~$ sudo bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+foo@bar:~$ sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
+foo@bar:~$ sudo update-initramfs -u
+foo@bar:~$ sudo reboot
+```
+
+
+**Add permissions to execute the file.**
 
 ```console
 foo@bar:~$ chmod +x NVIDIA-Linux-x86_64-450.66.run
