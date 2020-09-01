@@ -10,3 +10,7 @@ Click on badge above to be redirect to Nvidia website and fill the form with you
 
 [![My gpu description](/img/nvidia_driver_screenshot.png)](https://www.nvidia.com/Download/index.aspx)
 
+<figure>
+  <img src="/img/nvidia_driver_screenshot.png)" alt="Caption text">
+  <figcaption>Caption text</figcaption>
+</figure>
