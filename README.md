@@ -31,7 +31,7 @@ foo@bar:~$ sudo update-initramfs -u
 foo@bar:~$ sudo reboot
 ```
 
-# **Step 3: Enter the following key combination when you're logging in**
+# **Step 3: Enter the following key combination when you're logging in:**
 
 ```console
 Ctrl + Alt + F2
