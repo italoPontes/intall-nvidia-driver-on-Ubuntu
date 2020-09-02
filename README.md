@@ -21,7 +21,7 @@ foo@bar:~$ ubuntu-drivers devices
   <img src="/img/ubuntu-drivers-devices.png" alt="Caption text">
 </figure>
 
-# **Step 2: Run the following commands**
+# **Step 2: Run the following commands:**
 
 ```console
 foo@bar:~$ sudo apt-get install gcc make
